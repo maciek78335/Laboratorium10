@@ -1,0 +1,22 @@
+Sprawozdanie laboratorium 10
+Zadanie 1
+Całkowanie numeryczne metodami:
+-prostokątów
+-trapezów
+-Simpsona
+Utworzone są funkcje które odpowiednio obliczają wartości. 
+Przyspieszenie obliczeń dzięki klastrom GPU: utworzona na końcu kodu funkcja oraz uprzednio zaznaczony w ustawieniach akcelerator na GPU
+Zadanie 2
+W tym zadaniu zwiększyłem liczbę neuronów oraz warstw. W funkcji 1D model keras ma jedno wejście i wyjście, a w funkcji 2D dwa wejścia i jedno wyjście. 
+Na końcu również znajduje się kod do przyspieszania obliczeń dzięki klastrom GPU. 
+Zadanie 3
+Klasyfikator zdjęć odzieży fashion-MNIST.
+Początek to wczytanie bibliotek oraz danych. 
+Cecha to obraz, który jest tabelą. 
+Wartości macierzy: od 0 do 255(RGB).
+Przewidujemy zbiór liczb całkowitych(0-9).
+Kolejne etapy to:
+-wyznaczenie 40 elementów ze zbioru;
+-dobór architektury;
+-podsumowanie modelu;
+-dobranie ostatecznej architektury;
